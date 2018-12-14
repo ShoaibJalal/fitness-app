@@ -1,3 +1,11 @@
-import React from 'react'
+import React from "react";
+import { AppBar, Toolbar, Typography } from "@material-ui/core";
 
-export default props => (<h1>Header</h1>)
+export default props => (
+  <AppBar position="static">
+    <Toolbar />
+    <Typography variant="headline" color="inherit">
+      Fitness Plan Database
+    </Typography>
+  </AppBar>
+);
